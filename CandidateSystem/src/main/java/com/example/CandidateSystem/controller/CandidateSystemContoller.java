@@ -3,8 +3,8 @@ package com.example.CandidateSystem.controller;
 public class CandidateSystemContoller {
 
 
-    public void function(){
-         ;
+    public String function(){
+         return "Hi Rahul Patel";
     }
 
 }
