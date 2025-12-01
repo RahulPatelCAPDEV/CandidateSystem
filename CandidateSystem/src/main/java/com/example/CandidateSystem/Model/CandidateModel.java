@@ -4,25 +4,26 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class PersonalDetailsModel {
+@NoArgsConstructor
+@Entity
+@Table(name = "candidates")
+public class CandidateModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    private String address1;
-    private int pincode;
-    private String landMark;
-    private String city;
-    private String country;
-    private String state;
+    private String firstName;
+    private String lastName;
+    private int age;
+    private double weight;
+    private double height;
 }
