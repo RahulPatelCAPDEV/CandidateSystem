@@ -1,0 +1,10 @@
+com\example\CandidateSystem\Controller\CandidateSystemContoller.class
+com\example\CandidateSystem\Dto\PersonalDetailsdto.class
+com\example\CandidateSystem\Exeption\GlobalExeption.class
+com\example\CandidateSystem\Model\CandiateModel.class
+com\example\CandidateSystem\Model\PersonalDetailsModel.class
+com\example\CandidateSystem\Service\CandidateService.class
+com\example\CandidateSystem\Dto\Candidatedto.class
+com\example\CandidateSystem\CandidateSystemApplication.class
+com\example\CandidateSystem\Repo\PersonalDetailsRepo.class
+com\example\CandidateSystem\Repo\CandidateRepo.class
